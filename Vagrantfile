@@ -69,6 +69,6 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
 
-  # Run a shell script at the immediately after `vagrant up` command.
+  # Run a shell script immediately after the `vagrant up` command.
   config.vm.provision "shell", path: "setup.sh", privileged: false
 end
